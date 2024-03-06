@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+".\output\core_cm3.o"
+".\output\stm32f10x_it.o"
+".\output\system_stm32f10x.o"
+".\output\startup_stm32f10x_md.o"
+".\output\misc.o"
+".\output\stm32f10x_gpio.o"
+".\output\stm32f10x_rcc.o"
+".\output\stm32f10x_usart.o"
+".\output\stm32f10x_exti.o"
+".\output\delay.o"
+".\output\usart.o"
+".\output\led.o"
+".\output\key.o"
+".\output\dht11.o"
+".\output\main.o"
+".\output\onenet.o"
+".\output\hmac_sha1.o"
+".\output\base64.o"
+".\output\mqttkit.o"
+".\output\esp8266.o"
+".\output\cjson.o"
+".\output\oled.o"
+--strict --scatter ".\output\stm32f103.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\listing\stm32f103.map" -o .\output\stm32f103.axf
