@@ -119,9 +119,9 @@ void Hardware_Init(void)
 	
 	Usart2_Init(115200);							//串口2，驱动ESP8266用
 	
-  Key_Init();
+    Key_Init();
 	
-	Led_Init();									//蜂鸣器初始化
+	Led_Init();									//LED初始化
 	
 	OLED_Init();			//初始化OLED  
 	

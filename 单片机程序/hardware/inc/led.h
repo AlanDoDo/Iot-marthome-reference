@@ -1,8 +1,5 @@
-#ifndef _LED_H_
-#define _LED_H_
-
-
-
+#ifndef _LED_H_    // 预处理器指令，用于防止头文件的重复包含
+#define _LED_H_     
 
 
 typedef struct
@@ -14,7 +11,7 @@ typedef struct
 
 #define LED_ON		1
 
-#define LED_OFF	0
+#define LED_OFF	    0
 
 extern LED_INFO led_info;
 
